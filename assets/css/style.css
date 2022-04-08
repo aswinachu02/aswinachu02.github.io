@@ -164,6 +164,18 @@ section .Skills .Skills_content .skill p {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 10px 20px 20px 10px;
+}
+
+footer .icons {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .icons img {
+  width: 35px;
+  height: 35px;
+  margin: 20px 140px;
 }
