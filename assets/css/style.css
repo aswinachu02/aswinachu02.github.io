@@ -27,8 +27,21 @@ footer {
 }
 
 nav {
+  display: flex;
   padding: 37px 20px 20px 65px;
+  justify-content: space-between;
   font-size: 40px;
+}
+
+nav .icons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+nav .icons img {
+  width: 35px;
+  height: 35px;
+  margin: 20px;
 }
 
 header {
