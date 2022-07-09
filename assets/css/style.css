@@ -140,6 +140,7 @@ section .Projects .Projects_content .project p {
 
 section .Skills .Skills_content {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
   padding-left: 30px;
 }
